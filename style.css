@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c3e50;
+}
+
+.hero {
+  background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.btn {
+  background: #2ecc71;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.light {
+  background: #f4fdf7;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.reasons {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+  padding: 0;
+}
+
+.reasons li {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.trust {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: #2ecc71;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
